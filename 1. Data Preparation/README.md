@@ -94,4 +94,3 @@ FROM sales_pipeline;
 | 📄 | [**`data-preparation.sql`**](./data-preparation.sql) | Full PostgreSQL script containing profiling, reconciliation, and cleansing logic. |
 | 📂 | [**`Original Dataset`**](./Original%20Dataset/) | Directory containing the raw CSV source files used for this audit. |
 
-```
