@@ -91,6 +91,6 @@ FROM sales_pipeline;
 ## 📄 Files in this Folder
 | Type | File / Folder | Description |
 | :--- | :--- | :--- |
-| 📄 | [**`data-preparation.sql`**](./data-preparation.sql) | Full PostgreSQL script containing profiling, reconciliation, and cleansing logic. |
-| 📂 | [**`Original Dataset`**](./Original%20Dataset/) | Directory containing the raw CSV source files used for this audit. |
+| 📄 | [**`data-preparation.sql`**](./data-preparation.sql) | Full PostgreSQL script containing profiling, reconciliation, and cleansing logic |
+| 📂 | [**`Original Dataset`**](./Original%20Dataset/) | Directory containing the raw CSV source files used |
 
