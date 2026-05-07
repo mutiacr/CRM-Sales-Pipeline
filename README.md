@@ -1,7 +1,7 @@
 # 📊 Maven Sales Pipeline CRM Analysis
 
 ## 1. Background and Overview
-This project focuses on a comprehensive analysis of a **B2B sales pipeline for a hardware company**. The goal is to transform raw CRM data into actionable insights by identifying high-performing products, regions, and sales agents. By bridging the gap between technical data modeling and operational excellence, the analysis is delivered through four specialized dashboard perspectives designed to drive strategic growth:
+This project focuses on a comprehensive analysis of a **B2B sales pipeline for a hardware company**. The goal is to transform raw CRM data into actionable insights by identifying high-performing products, regions, and sales agents. The analysis is built upon a **rigorous Exploratory Data Analysis (EDA)** using SQL to ensure data integrity and uncover early trends. This technical foundation is then translated into four specialized dashboard perspectives designed to bridge the gap between data modeling and operational growth:
 
 * **Monitor Pipeline & Growth**: Evaluates overall pipeline health and Win/Loss ratios while monitoring Quarter-over-Quarter (QoQ) dynamics to detect seasonal performance trends.
 * **Analyze Sales Performance**: Compares regional and team performance to pinpoint high-performing units and identify productivity gaps for targeted training.
