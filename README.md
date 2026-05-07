@@ -1,7 +1,7 @@
 # 📊 Maven Sales Pipeline CRM Analysis
 
 ## 1. Background and Overview
-This project focuses on a comprehensive analysis of a **B2B sales pipeline for a hardware company**. The goal is to transform raw CRM data into actionable intelligence by identifying high-performing products, regions, and sales agents. This analysis bridges the gap between technical data modeling and operational excellence to drive sustainable business growth. The business insights are structured into four specialized dashboard perspectives to transform raw CRM data into actionable growth strategies:
+This project focuses on a comprehensive analysis of a **B2B sales pipeline for a hardware company**. The goal is to transform raw CRM data into actionable insights by identifying high-performing products, regions, and sales agents. The business insights are structured into four specialized dashboard perspectives to transform raw CRM data into actionable growth strategies:
 
   ### **1.1 Executive Summary**
   * **Pipeline Health**: Tracks overall pipeline health and high-level **Win/Loss ratios**.
@@ -26,7 +26,7 @@ The analysis utilizes a relational dataset processed through **SQL**, **PowerQue
 *   **Data Architecture**: The analysis is powered by four relational tables, structured as shown in the **Entity Relationship Diagram (ERD)** representing the connections between the datasets
   ![Entity Relationship Diagram](https://raw.githubusercontent.com/mutiacr/CRM-Sales-Pipeline/main/CRM%20Project%20Sales%20Pipeline%20ERD.png)
 *   **Exploratory Data Analysis (EDA)**:I leveraged **PostgreSQL** to conduct the initial EDA.This allowed me to perform deep-dive queries, validate early sales trends, and conduct rigorous data integrity checks to ensure the CRM data was accurate before visualization, View SQL Script [here](https://github.com/mutiacr/CRM-Sales-Pipeline/blob/main/2.%20Exploratory%20Data%20Analysis/CRM-EDA.sql).
-*   **Data Cleansing & Transformation**: For the final reporting layer, I utilized **Power Query** to refine and restructure the dataset. This included advanced data polishing such as handling missing values and optimizing the data schema to create a lightweight, high-performance data model specifically designed for a seamless Power BI experience
+*   **Data Cleansing & Transformation**: For the final reporting layer, I utilized **Power Query** to refine and restructure the dataset. This included advanced data cleansing such as handling missing values and optimizing the data schema to create a lightweight, high-performance data model specifically designed for a seamless **Power BI** experience
 *   **Visual Strategy**: A four-page interactive dashboard providing a holistic view of the sales cycle. Dashboard can be downloaded [here](https://github.com/mutiacr/CRM-Sales-Pipeline/blob/7cf96b14d9e886b341cedba1ec35c461cc491f3a/CRM%20Maven%20Sales%20Pipeline%20Dashboard.pbix)
 
 
