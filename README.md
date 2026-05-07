@@ -1,23 +1,12 @@
 # 📊 Maven Sales Pipeline CRM Analysis
 
 ## 1. Background and Overview
-This project focuses on a comprehensive analysis of a **B2B sales pipeline for a hardware company**. The goal is to transform raw CRM data into actionable insights by identifying high-performing products, regions, and sales agents. The business insights are structured into four specialized dashboard perspectives to transform raw CRM data into actionable growth strategies:
+This project focuses on a comprehensive analysis of a **B2B sales pipeline for a hardware company**. The goal is to transform raw CRM data into actionable insights by identifying high-performing products, regions, and sales agents. By bridging the gap between technical data modeling and operational excellence, the analysis is delivered through four specialized dashboard perspectives designed to drive strategic growth:
 
-  ### **1.1 Executive Summary**
-  * **Pipeline Health**: Tracks overall pipeline health and high-level **Win/Loss ratios**.
-  * **Growth Dynamics**: Monitors **Quarter-over-Quarter (QoQ)** performance to identify growth dynamics and seasonal trends.
-
-  ### **1.2 Sales Performance**
-  * **Team Benchmarking**: Evaluates relative performance across sales teams to identify high-performing units.
-  * **Agent Productivity**: Assesses individual efficiency to pinpoint **performance gaps** and training needs.
-
-  ### **1.3 Product Analytics**
-  * **Product Success Analytics**: Investigates product-specific **Win Rates** to determine competitive advantages.
-  * **Sales Cycle Evaluation**: Identifies **top revenue drivers** and evaluates the time required to close deals.
-
-  ### **1.4 Market Analytics**
-  * **Regional Growth**: Identifies high-potential **regions and industry sectors** for strategic market expansion.
-  * **Operational Excellence**: Bridges the gap between technical data distribution and regional sales excellence.
+* **Monitor Pipeline & Growth**: Evaluates overall pipeline health and Win/Loss ratios while monitoring Quarter-over-Quarter (QoQ) dynamics to detect seasonal performance trends.
+* **Analyze Sales Performance**: Compares regional and team performance to pinpoint high-performing units and identify productivity gaps for targeted training.
+* **Evaluate Product Success**: Investigates product-specific win rates and sales cycles to identify top revenue drivers and competitive advantages.
+* **Analyze Market Potential**: Segments regions and industry sectors to identify high-potential markets for strategic business expansion.
 
 
 ## 2. Data Structure Overview
