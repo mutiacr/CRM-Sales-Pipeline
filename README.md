@@ -22,7 +22,7 @@ The analysis utilizes a relational dataset processed through **SQL**, **PowerQue
 ## 3. Executive Summary
 The business generated **$10.01M in revenue** with a strong **38.91% growth** quarter-over-quarter.
 
-![Executive Summary](3.%20Dataviz/CRM%20Maven-ExecutiveSummary.PNG)
+![Executive Summary](3. Dataviz/CRM Maven-ExecutiveSummaryv2.PNG)
 
 *   **Sales Volume**: Total opportunities increased significantly by **86.20%**.
 *   **Operational Health**: The average sales cycle currently stands at **37.71 days**.
