@@ -1,13 +1,34 @@
 # 📊 Maven Sales Pipeline CRM Analysis
 
 ## 1. Background and Overview
-This project focuses on a comprehensive analysis of a B2B sales pipeline for a hardware company. The goal is to transform raw CRM data into actionable intelligence by identifying high-performing products, regions, and sales agents. This analysis bridges the gap between technical data modeling and operational excellence to drive sustainable business growth.
+This project focuses on a comprehensive analysis of a **B2B sales pipeline for a hardware company**. The goal is to transform raw CRM data into actionable intelligence by identifying high-performing products, regions, and sales agents. This analysis bridges the gap between technical data modeling and operational excellence to drive sustainable business growth. The business insights are structured into four specialized dashboard perspectives to transform raw CRM data into actionable growth strategies:
+
+  ### **1.1 Executive Summary**
+  * **Pipeline Health**: Tracks overall pipeline health and high-level **Win/Loss ratios**.
+  * **Growth Dynamics**: Monitors **Quarter-over-Quarter (QoQ)** performance to identify growth dynamics and seasonal trends.
+
+  ### **1.2 Sales Performance**
+  * **Team Benchmarking**: Evaluates relative performance across sales teams to identify high-performing units.
+  * **Agent Productivity**: Assesses individual efficiency to pinpoint **performance gaps** and training needs.
+
+  ### **1.3 Product Analytics**
+  * **Product Success Analytics**: Investigates product-specific **Win Rates** to determine competitive advantages.
+  * **Sales Cycle Evaluation**: Identifies **top revenue drivers** and evaluates the time required to close deals.
+
+  ### **1.4 Market Analytics**
+  * **Regional Growth**: Identifies high-potential **regions and industry sectors** for strategic market expansion.
+  * **Operational Excellence**: Bridges the gap between technical data distribution and regional sales excellence.
+
 
 ## 2. Data Structure Overview
-The analysis utilizes a relational dataset processed through **SQL** and visualized in **Power BI**.
-*   **Data Cleaning & EDA**: Conducted in MySQL, [View SQL Script here](https://github.com/mutiacr/CRM-Sales-Pipeline/blob/main/2.%20Exploratory%20Data%20Analysis/CRM-EDA.sql).
-*   **Visual Strategy**: A four-page interactive dashboard providing a holistic view of the sales cycle.
-*   **Key Metrics tracked**: Revenue, Success Rate, Average Sales Cycle Days (Calculated for Weekdays Only), and Opportunity Volume.
+The analysis utilizes a relational dataset processed through **SQL**, **PowerQuery** and visualized in **Power BI**. In this project, I implemented a hybrid data transformation strategy to ensure both depth of analysis and dashboard performance
+
+*   **Data Architecture**: The analysis is powered by four relational tables, structured as shown in the **Entity Relationship Diagram (ERD)** representing the connections between the datasets
+  ![Entity Relationship Diagram](https://raw.githubusercontent.com/mutiacr/CRM-Sales-Pipeline/main/CRM%20Project%20Sales%20Pipeline%20ERD.png)
+*   **Exploratory Data Analysis (EDA)**:I leveraged **PostgreSQL** to conduct the initial EDA.This allowed me to perform deep-dive queries, validate early sales trends, and conduct rigorous data integrity checks to ensure the CRM data was accurate before visualization, View SQL Script [here](https://github.com/mutiacr/CRM-Sales-Pipeline/blob/main/2.%20Exploratory%20Data%20Analysis/CRM-EDA.sql).
+*   **Data Cleansing & Transformation**: For the final reporting layer, I utilized **Power Query** to refine and restructure the dataset. This included advanced data polishing such as handling missing values and optimizing the data schema to create a lightweight, high-performance data model specifically designed for a seamless Power BI experience
+*   **Visual Strategy**: A four-page interactive dashboard providing a holistic view of the sales cycle. Dashboard can be downloaded [here](https://github.com/mutiacr/CRM-Sales-Pipeline/blob/7cf96b14d9e886b341cedba1ec35c461cc491f3a/CRM%20Maven%20Sales%20Pipeline%20Dashboard.pbix)
+
 
 ## 3. Executive Summary
 The business generated **$10.01M in revenue** with a strong **38.91% growth** quarter-over-quarter.
