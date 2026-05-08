@@ -40,21 +40,20 @@ The analysis utilizes a relational dataset processed through **SQL**, **PowerQue
   
 ## 4. Insights Deep-Dive
 
-### Sales Team & Agent Performance
-* **Regional & Leadership Disparity:** Revenue leadership is heavily concentrated in the **West ($3.57M)** and **Central ($3.35M)** offices, while the **East** trails significantly at **30.89%** contribution. Success is tied to specific leadership: **Melvin Marxen ($2.25M)** and **Rocco Neubert ($1.96M)** drive the bulk of results, highlighting a high dependency on top-tier managers.
-* **Sales Agents Performance**: While **Darcel Schlecht** is the top contributor (11.53%), the analysis identified **Violet Mclelland** and **Wilburn Farren** as lagging agents, contributing only **~1.2%** to total revenue. Additionally, **5 sales agents** were found to have no historical sales data.
-* **Value-Volume Divergence:** There is a clear strategic gap between regions. The **West** region dominates in total revenue (*high-ticket focus*), yet trails **Central** in total deal quantity (*volume*). This high-stakes profile makes the West more susceptible to **Conversion Leakage**, evidenced by their high **Lost volume (459 deals)**.
-* **The 42-Day "Dead Zone":** Data establishes an **Efficiency Benchmark** of **~35 weekdays** to maintain a win rate above 50%. Once the sales cycle exceeds the **42-day "Dead Zone"**, win probability collapses below 45% regardless of deal size. This momentum decay is most visible in lagging agents contributing only ~1.2%, contrasted against top performers like **Darcel Schlecht (11.53%)**.
-* **Resource Prioritization Gap:** Small-revenue deals currently consume the same 35-40 day cycle as high-value accounts. This lack of effort differentiation, alongside an apparent imbalance in lead distribution across the team, dilutes bandwidth and contributes to the 25% overall win-rate decline
-
-
-![Sales Performance](3.%20Dataviz/CRM%20Maven-Sales%20Performance.PNG)
-
 ### Product Success
 *   **Product Win Rates**: The **GTX Plus Pro** is the most efficient product with the highest win rate of **49.48%**. Although **GTX Pro** has a slightly lower win rate, it remains the primary revenue anchor at **$3.51M**.
 *   **Product Evaluation:** There is a significant disconnect between deal volume and revenue impact. **GTX Basic** and **MG Special** achieved the highest number of units won (over 1,700 deals combined), yet they contributed the least to the total revenue. Notably, MG Special maintained positive profitability (+0.35%) without heavy discounting, indicating strong organic demand.
 
 ![Product Analytics](3.%20Dataviz/CRM%20Maven-Product%20Analytics.PNG)
+
+### Sales Performance & Operational Efficiency Analysis
+* **Regional Value vs. Volume Divergence:** Revenue is heavily concentrated in the **West ($3.57M)** and **Central ($3.35M)** offices, highlighting a significant dependency on top-tier managers like Melvin Marxen and Rocco Neubert. However, a clear strategic gap exists: the West dominates in high-ticket value but suffers from severe Conversion Leakage (459 Lost deals), while the Central office remains the more productive engine with a higher volume of successful closures.
+* **Speed vs. Success Rate (The 42-Day "Dead Zone")**: Analysis identifies a critical efficiency benchmark where win rates peak near 65% led by **Reed Clapper ('The Conversion Specialist')** within a disciplined 35–37 day cycle. In contrast, the majority of the team—the 'Revenue Engine Zone' is clustered around a 40–50% win rate. Once the sales cycle exceeds the 42-day "Dead Zone", win probability collapses regardless of deal size, leading to the 25% overall win-rate decline
+* **Resource Prioritization & Agent Performance Disparity:** There is a stark performance gap between the team's top and bottom tiers. While **Darcel Schlecht leads with an 11.53%** revenue contribution, lagging agents such as **Violet Mclelland and Wilburn Farren** contribute only ~1.2% each. This disparity is worsened by a lack of effort differentiation; small-value deals currently consume the same **35–40 day cycle** as high-value accounts, diluting bandwidth and slowing down high-potential leads.
+
+
+![Sales Performance](3.%20Dataviz/CRM%20Maven-Sales%20Performance.PNG)
+
 
 ### Market Analytics & Account Segmentation
 *   **Enterprise Dominance**: Accounts are categorized into **Small** (≤50), **Medium** (≤250), and **Enterprise** (>250). Revenue is heavily driven by the **Enterprise** segment.
