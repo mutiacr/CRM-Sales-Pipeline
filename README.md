@@ -50,8 +50,7 @@ The analysis utilizes a relational dataset processed through **SQL**, **PowerQue
 
 ![Sales Performance](3.%20Dataviz/CRM%20Maven-Sales%20Performance.PNG)
 
-### Quarterly Trends & Product Success
-*   **QoQ Trends**: Total revenue grew significantly by **38.91%** ($10.01M). However, while **Total Opportunities** spiked by **86.20%**, the **Success Rate** dropped by **25.18%**, suggesting a decline in lead quality despite the volume increase.
+### Product Success
 *   **Product Win Rates**: The **GTX Plus Pro** is the most efficient product with the highest win rate of **49.48%**. Although **GTX Pro** has a slightly lower win rate, it remains the primary revenue anchor at **$3.51M**.
 *   **Product Evaluation:** There is a significant disconnect between deal volume and revenue impact for entry-level products. **GTX Basic** and **MG Special** achieved the highest number of units won (over 1,700 deals combined), yet they contributed the least to the total revenue. Notably, MG Special maintained positive profitability (+0.35%) without heavy discounting, indicating strong organic demand.
 
