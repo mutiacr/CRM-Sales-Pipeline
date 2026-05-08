@@ -52,7 +52,7 @@ The analysis utilizes a relational dataset processed through **SQL**, **PowerQue
 
 ### Product Success
 *   **Product Win Rates**: The **GTX Plus Pro** is the most efficient product with the highest win rate of **49.48%**. Although **GTX Pro** has a slightly lower win rate, it remains the primary revenue anchor at **$3.51M**.
-*   **Product Evaluation:** There is a significant disconnect between deal volume and revenue impact for entry-level products. **GTX Basic** and **MG Special** achieved the highest number of units won (over 1,700 deals combined), yet they contributed the least to the total revenue. Notably, MG Special maintained positive profitability (+0.35%) without heavy discounting, indicating strong organic demand.
+*   **Product Evaluation:** There is a significant disconnect between deal volume and revenue impact. **GTX Basic** and **MG Special** achieved the highest number of units won (over 1,700 deals combined), yet they contributed the least to the total revenue. Notably, MG Special maintained positive profitability (+0.35%) without heavy discounting, indicating strong organic demand.
 
 ![Product Analytics](3.%20Dataviz/CRM%20Maven-Product%20Analytics.PNG)
 
