@@ -76,6 +76,8 @@ The analysis utilizes a relational dataset processed through **SQL**, **PowerQue
 ### Technical Area of Improvement & Findings
 *   **Custom Cycle Calculation**: To ensure business relevance, `Average Sales Cycle Days` was calculated using **weekdays only**, reflecting actual B2B operational time.
 *   **Data Granularity**: Recommended inclusion of `Created Date` and `Prospect Date` to measure efficiency across the entire funnel, as the current data only provides `Engage` and `Close` dates.
-*   **Data Audit**: Perform a status audit on agents with zero historical data to clarify if the gap is due to onboarding, technical logging issues, or performance
+*   **Root Cause Analysis (Lost Reason):** Implementation of a mandatory **"Lost Reason"** field is essential. Capturing qualitative data (Price, Competitor, Product Fit) will identify patterns behind the West region's leakage and refine product-market fit.
+* **Data Integrity Audit:** A status audit is required for agents with zero historical records to clarify if the gap is due to **onboarding**, **technical CRM logging errors**, or **performance issues**, ensuring a reliable "Single Source of Truth."
+
   
 *Data Source: Maven Analytics Sales Pipeline Challenge.*
